@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <com.example.as.passwordedittext.PassWordEditText
+        android:id="@+id/pw_EditText"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_margin="20dp"
+        android:background="@null"
+        app:bgColor="#a5a5a5"
+        app:bgCorner="3dp"
+        app:divisionLineColor="#a5a5a5"
+        app:bgSize="1dp"
+        app:passwordColor="#000"
+        app:passwordRadius="5dp"
+        app:divisionLinesSize="1dp"
+        app:passwordNumber="6"
+        />
+    <com.example.as.passwordedittext.CustomerKeyboard
+        android:id="@+id/keyboard_View"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        />
+</LinearLayout>
